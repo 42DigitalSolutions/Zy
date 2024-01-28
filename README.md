@@ -2,7 +2,7 @@
 
 Your personal AI assistant/OS with an integrated AI store.
 
-## Minifesto
+## Manifesto
 
 With Zy we want to give the user its own private, personal and personalized AI Assistant.
 With the current state of the discussions within the tech community it is not clear if the existence of an AGI is the best of all ideas.
