@@ -1,4 +1,6 @@
-# Zy 🐙
+![Zy Logo](./static/Zy-dark-eng.png)
+
+# Zy
 
 Your personal AI assistant/OS with an integrated AI store.
 
