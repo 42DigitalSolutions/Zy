@@ -1,7 +1,3 @@
-layout: page
-title: "Zy"
-permalink: /
-
 # Zy
 
 Your personal AI assistant/OS with an integrated AI store.
