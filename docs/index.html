@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="margin: 0;height: 100%;">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Nunito:wght@400;700&family=Varela+Round&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Nunito:wght@300;400;700&family=Varela+Round&display=swap"
     rel="stylesheet">
   <title>Zy</title>
 </head>
-<body style="font-family: 'Nunito', sans-serif;font-size: 18.6px;line-height: 28px;letter-spacing: 0em;text-transform: none;list-style-type: none;">
-  <div style="display: flex;flex-direction: row;align-items: stretch;justify-content: center;">
-    <div style="background-color: #fcfcfc;padding: 200px;color: #424242;width: 50%;text-align: center;">
+<body style="font-family: 'Nunito', sans-serif;font-size: 18.6px;line-height: 28px;letter-spacing: 0em;text-transform: none;list-style-type: none;font-weight: 400; margin: 0;height: 100%;">
+  <div style="display: flex;flex-direction: row;align-items: stretch;justify-content: center;height: 100%;">
+    <div style="background-color: #fcfcfc;padding: 200px;color: #424242;width: 50%;text-align: center;display: flex; flex-direction: column; align-items: center;justify-content: center;">
       <img src="Zy-dark.png" width="289" height="289"/>
       <p>ai, personal, private</p>
       <button style="
@@ -23,16 +23,32 @@
         color: #fcfcfc;
         border: none;
         font-size: large;
+        margin-bottom: 42px;
+        margin-top: 84px;
       ">Contact us</button>
-      <img src="github-mark.png" style="object-fit: fill; width: 33.6px;">
-      <img src="linedin.svg" style="object-fit: fill; width: 33.6px;">
+      <div>
+        <img src="github-mark.png" style="object-fit: fill; width: 33.6px; margin-right: 42px;">
+        <img src="linedin.svg" style="object-fit: fill; width: 33.6px;">
+      </div>
     </div>
-    <div style="background-color: #424242;padding: 200px;width: 50%;color: #fcfcfc;">
-      <h1>Zy</h1>
+    <div style="background-color: #424242;padding: 200px;width: 50%;color: #fcfcfc;overflow: scroll;scroll-behavior: auto;scrollbar-darkshadow-color: #fcfcfc;">
+      <h1 style="font-weight: 300;">Zy</h1>
       <h3>Your personal AI assistant/OS with an integrated AI store.</h3>
       <p>Our goal with this open source project is to build a distributed AI assistant with full data management capabilities,
       which will run in the cloud. The AI assistant will primarily take voice inputs and process them into conversations,
       enabling users to perform tasks and get information in a conversational manner.</p>
+      <h3>Features</h3>
+      <p>The following are the key features that we envision for Zy:</p>
+      <ul>
+        <li><b>Voice Input:</b> The primary input method for the assistant will be voice, enabling users to interact with the system
+        hands-free.</li>
+        <li><b>Conversation-based Interaction:</b> Everything will be a conversation, allowing users to engage in natural language
+        interactions and get responses in a conversational manner.</li>
+        <li><b>Data Management:</b> Zy will have full data management capabilities, allowing it to collect, store, and manage user data.
+        <li><b>Distributed Architecture:</b> Zy will have (at some point) a distributed architecture, enabling it to be run in the cloud and scale to
+        support a large number of users.</li>
+        <li><b>Anonymized Data Pass-out:</b> The data passed out to external systems will always be anonymized, ensuring user privacy.</li>
+      </ul>
     </div>
   </div>
 </body>
