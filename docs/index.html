@@ -9,29 +9,98 @@
     href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&family=Nunito:wght@300;400;700&family=Varela+Round&display=swap"
     rel="stylesheet">
   <title>Zy</title>
+  <style>
+    /* Existing styles */
+    body {
+      font-family: 'Nunito', sans-serif;
+      font-size: 18.6px;
+      line-height: 28px;
+      letter-spacing: 0em;
+      text-transform: none;
+      list-style-type: none;
+      font-weight: 400;
+      margin: 0;
+      height: 100%;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      align-items: stretch;
+      justify-content: center;
+      height: 100%;
+    }
+    .div-left {
+      padding: 200px;
+      width: 50%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: #fcfcfc;
+      color: #424242;
+    }
+
+    .div-right {
+      padding: 200px;
+      width: 50%;
+      text-align: left;
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      justify-content: center;
+      background-color: #424242;
+      color: #fcfcfc;
+      overflow: scroll;
+      scrollbar-darkshadow-color: #fcfcfc;
+    }
+
+    .contact-button {
+      background: #424242;
+      width: 288px;
+      height: 50px;
+      touch-action: pan-x pan-y pinch-zoom;
+      color: #fcfcfc;
+      border: none;
+      font-size: large;
+      margin-bottom: 42px;
+      margin-top: 84px;
+    }
+
+    /* Add media query for mobile devices */
+    @media screen and (max-width: 1024px) {
+      .container {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        background-color: #fcfcfc;
+      }
+
+      .div-left {
+        padding: 100px;
+      }
+      
+      .div-right{
+        padding: 42px;
+        width: auto;
+        justify-content:flex-start;
+        height:auto;
+      }
+    }
+  </style>
 </head>
-<body style="font-family: 'Nunito', sans-serif;font-size: 18.6px;line-height: 28px;letter-spacing: 0em;text-transform: none;list-style-type: none;font-weight: 400; margin: 0;height: 100%;">
-  <div style="display: flex;flex-direction: row;align-items: stretch;justify-content: center;height: 100%;">
-    <div style="background-color: #fcfcfc;padding: 200px;color: #424242;width: 50%;text-align: center;display: flex; flex-direction: column; align-items: center;justify-content: center;">
+<body>
+  <div class="container">
+    <div class="div-left">
       <img src="Zy-dark.png" width="289" height="289"/>
       <p>ai, personal, private</p>
-      <button style="
-        background: #424242;
-        width: 288px;
-        height: 50px;
-        touch-action: pan-x pan-y pinch-zoom;
-        color: #fcfcfc;
-        border: none;
-        font-size: large;
-        margin-bottom: 42px;
-        margin-top: 84px;
-      ">Contact us</button>
+      <button class="contact-button">Contact us</button>
       <div>
         <img src="github-mark.png" style="object-fit: fill; width: 33.6px; margin-right: 42px;">
         <img src="linedin.svg" style="object-fit: fill; width: 33.6px;">
       </div>
     </div>
-    <div style="background-color: #424242;padding: 200px;width: 50%;color: #fcfcfc;overflow: scroll;scroll-behavior: auto;scrollbar-darkshadow-color: #fcfcfc;">
+    <div class="div-right">
       <h1 style="font-weight: 300;">Zy</h1>
       <h3>Your personal AI assistant/OS with an integrated AI store.</h3>
       <p>Our goal with this open source project is to build a distributed AI assistant with full data management capabilities,
