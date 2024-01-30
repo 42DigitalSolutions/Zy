@@ -56,12 +56,17 @@
     }
 
     .contact-button {
-      background: #424242;
       width: 288px;
       height: 50px;
-      touch-action: pan-x pan-y pinch-zoom;
+      line-height: 50px;
+      display: inline-block;
+      padding: 10px 15px;
+      background-color: #424242;
       color: #fcfcfc;
+      text-align: center;
+      text-decoration: none;
       border: none;
+      border-radius: 2px;
       font-size: large;
       margin-bottom: 42px;
       margin-top: 84px;
@@ -92,12 +97,12 @@
 <body>
   <div class="container">
     <div class="div-left">
-      <img src="Zy-dark.png" width="289" height="289"/>
+      <img src="Zy-dark.png" width="289" height="289" style="border-radius: 2px;"/>
       <p>ai, personal, private</p>
-      <button class="contact-button">Contact us</button>
+      <a href="mailto:omid@42ds.com" class="contact-button">Contact us</a>
       <div>
-        <img src="github-mark.png" style="object-fit: fill; width: 33.6px; margin-right: 42px;">
-        <img src="linedin.svg" style="object-fit: fill; width: 33.6px;">
+        <a href="https://github.com/42DigitalSolutions/Zy"><img src="github-mark.png" style="object-fit: fill; width: 33.6px; margin-right: 42px;"></a>
+        <a href="https://www.linkedin.com/company/42ds"><img src="linedin.svg" style="object-fit: fill; width: 33.6px;"></a>
       </div>
     </div>
     <div class="div-right">
